@@ -7,7 +7,7 @@ The package list is automatically updated every 2 to 3 hours.
 
 ## Download
 
-[![Download apk](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download apk")](https://github.com/haithamaouati/Surfer/releases/download/1.0/Surfer_release.apk)
+[![Download apk](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download apk")]([https://github.com/haithamaouati/Surfer/releases/download/1.0/Surfer_release.apk](https://github.com/haithamaouati/Surfer/releases/download/pre-release/Surfer_release.apk))
 
 ## Screenshot
 ![screenshot](screenshot.jpg)
