@@ -5,6 +5,8 @@ You can also search for any package and copy its installation command `pkg insta
 
 The package list is automatically updated every 2 to 3 hours.
 
+![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads-pre/haithamaouati/Surfer/latest/total?sort=date&style=flat-square&logo=android)
+
 [Download](https://github.com/haithamaouati/Surfer/releases/download/1.0/Surfer_release.apk)
 
 ## Screenshot
