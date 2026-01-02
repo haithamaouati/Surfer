@@ -11,3 +11,31 @@ The package list is automatically updated every 2 to 3 hours.
 
 ## Screenshot
 ![screenshot](screenshot.jpg)
+
+### Surfer within Termux itself
+
+ Using [fzf](https://github.com/junegunn/fzf) as a function that you can put in your `.bashrc`
+
+Open `.bashrc` using `nano`:
+```
+nano ~/.bashrc`
+```
+
+###### fzf function
+
+```
+surfer () {
+apt-cache search ".*" | fzf -e \
+    --layout=reverse \
+    --border-label="Ꞩurfer" \
+    --border=rounded \
+    --preview-label="Package details" \
+    --preview-window='down,,,wrap,~1' \
+    --prompt="Install package> " \
+    --delimiter=' - ' \
+    --with-nth=1,2 \
+    --nth=1,2 \
+    --preview 'apt-cache show --no-all-versions {1} | grep -Ev "^(SHA|MD5)" ' \
+    --bind 'enter:become(pkg install {1})'
+}
+```
